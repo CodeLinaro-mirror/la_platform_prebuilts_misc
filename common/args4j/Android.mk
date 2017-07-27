@@ -1,4 +1,4 @@
-# Copyright (C) 2008 The Android Open Source Project
+# Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,10 +16,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_PREBUILT_JAVA_LIBRARIES := \
-    asm-5.2.jar \
-    asm-analysis-5.2.jar \
-    asm-commons-5.2.jar \
-    asm-tree-5.2.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+    args4j-2.0.28:args4j-2.0.28.jar\
 
 include $(BUILD_HOST_PREBUILT)

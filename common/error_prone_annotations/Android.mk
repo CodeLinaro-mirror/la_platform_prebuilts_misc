@@ -17,9 +17,6 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_JAVA_LIBRARIES := \
-    asm-5.2.jar \
-    asm-analysis-5.2.jar \
-    asm-commons-5.2.jar \
-    asm-tree-5.2.jar
+    error_prone_annotations-2.0.18.jar \
 
 include $(BUILD_HOST_PREBUILT)
